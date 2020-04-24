@@ -15,4 +15,5 @@
   top: 40%;
   border: 3px solid rgb(235, 186, 28);
   border-radius: 50%;
+  box-shadow: 0 0 4px 0 rgb(235, 186, 28);
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   position: fixed;
-  background: #1E90FF;
+  background: rgb(235, 186, 28);
   width: 200px;
   padding: 0;
   margin: 0;
@@ -21,7 +21,7 @@
   padding: 20px;
 }
 .menu__item_active {
-  background-color: #00CED1;
+  background-color: rgb(102, 58, 8);
 }
 
 .menu__items-inside {
@@ -34,7 +34,7 @@
   left: 120px;
   width: 150px;
   z-index: 10;
-  background: #00BFFF;
+  background: rgba(235, 186, 28, 0.8);
   border: 1px solid white;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .menu__item:hover {
-  background-color: #00BFFF;
+  background-color:  rgb(231, 177, 29);
 }
 
 .menu__item:hover .menu__items-inside {
@@ -56,7 +56,7 @@
 }
 
 .menu__item-inside:hover {
-  background-color: #87CEFA;
+  background:rgba(231, 177, 29, 0.7);
 }
 
 .menu__link:active {
