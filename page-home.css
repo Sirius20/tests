@@ -1,0 +1,29 @@
+.page-home {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #FAEBD7;
+  box-shadow: 0 0 4px 5px rgba(158, 143, 132, 0.5); 
+  flex-grow: 1;
+  box-sizing: inherit;
+  margin-left: 210px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.page-home_column {
+  border: 2px dashed salmon;
+  width: 300px;
+  padding: 10px;
+}
+
+.page-home__filters {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.page-home__img {
+  border: 1px solid black;
+  border-radius: 3px;
+}

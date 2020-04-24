@@ -13,127 +13,7 @@ body {
   line-height: 30px;
   color: #303030;
   box-sizing: border-box;
-  background:#FAEBD7;
-}
-
-.header {
-  display: block;
-  background-color: rgb(158, 143, 132);
-  text-align: center;
-  height: 100px;
-  padding-top: 40px;
-}
-
-.header__logo {
-  font-size: 24px;
-  font-weight: 800;
-}
-
-.main-page {
-  display: flex;
-}
-
-.menu__button {
-  width: 46px;
-  height: 46px;
-  display: block;
-  position: relative;
-  
-}
-
-.menu__button .menu__img {
-  position: absolute; 
-  left: 0; top: 0;
-  width: 100%; 
-  height: 100%;
-  /* background: url("img/button.png") no-repeat;  */
-  cursor: pointer;
-  padding-left: 20px;
-}
-
-input[type="checkbox"]:checked ~ .menu {
-  visibility: hidden;
-}
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background: #1E90FF;
-  width: 250px;
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  border-radius: 3px;
-}
-
-.menu__items {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu__item {
-  position: relative;
-  padding: 20px;
-}
-.menu__item_active {
-  background-color: #00CED1;
-}
-
-.menu__items-inside {
-  display: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  list-style: none;
-  top: 10px;
-  left: 120px;
-  width: 150px;
-  z-index: 10;
-  background: #00BFFF;
-  border: 1px solid white;
-}
-
-.menu__item-inside {
-  padding: 10px;
-}
-
-.menu__link {
-  text-decoration: none;
-  color: white;
-}
-
-.menu__item:hover {
-  background-color: #00BFFF;
-}
-
-.menu__item:hover .menu__items-inside {
-  display: block;
-}
-
-.menu__item-inside:hover {
-  background-color: #87CEFA;
-}
-
-.menu__link:active {
-  color: #DCDCDC;
-}
-
-.main-page__home {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  border: 5px solid black; 
-  flex-grow: 1;
-  box-sizing: inherit;
-  margin-left: 50px;
-  padding: 20px;
-}
-
-h1 {
-  font-size: 2em;
-  align-self: center;
+  background:rgb(212, 204, 194);
 }
 
 .container {
@@ -142,25 +22,7 @@ h1 {
   margin: auto;
 }
 
-.container_column {
-  border: 2px dashed salmon;
-  width: 300px;
-  padding: 10px;
-}
-
-.container__filters {
-  display: flex;
-  flex-direction: column;
-  margin-right: 50px;
-}
-
-
-.container__choice {
-  border: 2px dashed salmon; 
-  width: 300px;
-}
-
-.container__img {
-  border: 1px solid black;
-  border-radius: 3px;
+ h1 {
+  font-size: 2em;
+  align-self: center;
 }

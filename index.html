@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Заголовок страницы</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="menu__button.css">
+    <link rel="stylesheet" href="page-home.css">
   </head>
   <body>
     <header class="header">
+      <input class="header menu__button" type="image" src="img/button.png" alt="показать/скрыть меню" width="46px" height="46px">
       <span class="header__logo">ЛОГОТИП</span>
     </header>
-    <div class="main-page">
+    <div class="container">
       <nav class="menu">
         <ul class="menu__items">
           <li class="menu__item menu__item_active"><a class="menu__link" href="#">Главная</a></li>
@@ -25,25 +30,25 @@
           <li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
         </ul>
       </nav>
-      <section class="main-page__home">
+      <section class="page-home">
         <h1>ГЛАВНАЯ</h1>
         <div class="container">
-          <div class="container__filters container_column">
+          <div class="page-home__filters page-home_column">
             <span>Выберите любимый цвет (или несколько):</span>
             <p><input type="checkbox" name="green" id="green">
-              <label for="green"><img class="container__img" src="img/green.png" width="30px" height="30px" alt="Зелёный" title="Зелёный"></label></p>
+              <label for="green"><img class="page-home__img" src="img/green.png" width="30px" height="30px" alt="Зелёный" title="Зелёный"></label></p>
             <p><input type="checkbox" name="red" id="red">
-              <label for="red"><img class="container__img" src="img/red.png" width="30px" height="30px" alt="Красный" title="Красный"></label></p>
+              <label for="red"><img class="page-home__img" src="img/red.png" width="30px" height="30px" alt="Красный" title="Красный"></label></p>
             <p><input type="checkbox" name="bluesky" id="bluesky">
-              <label for="bluesky"><img class="container__img" src="img/bluesky.png" width="30px" height="30px" alt="Голубой" title="Голубой"></label></p>
+              <label for="bluesky"><img class="page-home__img" src="img/bluesky.png" width="30px" height="30px" alt="Голубой" title="Голубой"></label></p>
             <p><input type="checkbox" name="purple" id="purple">
-              <label for="purple"><img class="container__img" src="img/purple.png" width="30px" height="30px" alt="Фиолетовый" title="Фиолетовый"></label></p>
+              <label for="purple"><img class="page-home__img" src="img/purple.png" width="30px" height="30px" alt="Фиолетовый" title="Фиолетовый"></label></p>
             <p><input type="checkbox" name="all" id="all">
               <label for="all">Выбрать все!</label></p>
         </div>
-        <div class="container_column">
-          <p>Если вы любите жёлтый, нажмите <a href="https://ru.wikipedia.org/wiki/%D0%96%D1%91%D0%BB%D1%82%D1%8B%D0%B9_%D1%86%D0%B2%D0%B5%D1%82">
-            <img class="container__img" src="img/yellow.png" width="30px" height="30px" alt="Жёлтый" title="Жёлтый"></a></p>
+        <div class="page-home_column">
+          <p>Если вы любите жёлтый, нажмите <a href="https://ru.wikipedia.org/wiki/%D0%96%D1%91%D0%BB%D1%82%D1%8B%D0%B9_%D1%86%D0%B2%D0%B5%D1%82" target="_blank">
+            <img class="page-home__img" src="img/yellow.png" width="30px" height="30px" alt="Жёлтый" title="Жёлтый"></a></p>
         </div>
     </div>
       </section>
