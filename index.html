@@ -35,6 +35,7 @@
         <div class="container">
           <div class="page-home__filters page-home_column">
             <span>Выберите любимый цвет (или несколько):</span>
+            <fieldset id="fieldcheck">
             <p><input type="checkbox" name="green" id="green">
               <label for="green"><img class="page-home__img" src="img/green.png" width="30px" height="30px" alt="Зелёный" title="Зелёный"></label></p>
             <p><input type="checkbox" name="red" id="red">
@@ -43,8 +44,9 @@
               <label for="bluesky"><img class="page-home__img" src="img/bluesky.png" width="30px" height="30px" alt="Голубой" title="Голубой"></label></p>
             <p><input type="checkbox" name="purple" id="purple">
               <label for="purple"><img class="page-home__img" src="img/purple.png" width="30px" height="30px" alt="Фиолетовый" title="Фиолетовый"></label></p>
-            <p><input type="checkbox" name="all" id="all">
-              <label for="all">Выбрать все!</label></p>
+            <legend><input type="checkbox" name="all" id="all">
+              <label for="all">Выбрать все</label></legend>
+            </fieldset>
         </div>
         <div class="page-home_column">
           <p>Если вы любите жёлтый, нажмите <a href="https://ru.wikipedia.org/wiki/%D0%96%D1%91%D0%BB%D1%82%D1%8B%D0%B9_%D1%86%D0%B2%D0%B5%D1%82" target="_blank">
@@ -53,5 +55,7 @@
     </div>
       </section>
     </div>
+    <script src="menu__button.js"></script>
+    <script src="page-home__filters.js"></script>
   </body>
 </html>
