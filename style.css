@@ -1,6 +1,6 @@
-/* @media all and (max-width: 1200px) {
+@media all and (max-width: 1200px) {
   .menu {visibility: hidden;}
-} */
+}
 
 
 body {
@@ -22,7 +22,11 @@ body {
   margin: auto;
 }
 
- h1 {
+.container > input { 
+  display: none;
+} 
+
+h1 {
   font-size: 2em;
   align-self: center;
   color: rgb(102, 58, 8);;

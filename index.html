@@ -12,10 +12,11 @@
   </head>
   <body>
     <header class="header">
-      <input class="header menu__button" type="image" src="img/button.png" alt="показать/скрыть меню" width="46px" height="46px">
+      <label class="menu__button" for="button"> <img src="img/button.png" alt="показать/скрыть меню" width="46px" height="46px"></label>
       <span class="header__logo">ЛОГОТИП</span>
     </header>
     <div class="container">
+      <input type="checkbox" id="button" checked>
       <nav class="menu">
         <ul class="menu__items">
           <li class="menu__item menu__item_active"><a class="menu__link" href="#">Главная</a></li>
