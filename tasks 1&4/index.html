@@ -13,7 +13,7 @@
   <body>
     <header class="header">
       <label class="menu__button" for="button"> <img src="img/button.png" alt="показать/скрыть меню" width="46px" height="46px"></label>
-      <span class="header__logo">ЛОГОТИП</span>
+      <span><a class="header__logo" href="#">ЛОГОТИП</a></span>
     </header>
     <div class="container">
       <input type="checkbox" id="button" checked>
@@ -37,6 +37,8 @@
           <div class="page-home__filters page-home_column">
             <span>Выберите любимый цвет (или несколько):</span>
             <fieldset id="fieldcheck">
+            <legend><input type="checkbox" name="all" id="all">
+            <label for="all">Выбрать все</label></legend>  
             <p><input type="checkbox" name="green" id="green">
               <label for="green"><img class="page-home__img" src="img/green.png" width="30px" height="30px" alt="Зелёный" title="Зелёный"></label></p>
             <p><input type="checkbox" name="red" id="red">
@@ -45,8 +47,7 @@
               <label for="bluesky"><img class="page-home__img" src="img/bluesky.png" width="30px" height="30px" alt="Голубой" title="Голубой"></label></p>
             <p><input type="checkbox" name="purple" id="purple">
               <label for="purple"><img class="page-home__img" src="img/purple.png" width="30px" height="30px" alt="Фиолетовый" title="Фиолетовый"></label></p>
-            <legend><input type="checkbox" name="all" id="all">
-              <label for="all">Выбрать все</label></legend>
+            
             </fieldset>
         </div>
         <div class="page-home_column">
@@ -57,6 +58,5 @@
       </section>
     </div>
     <script src="page-home__filters.js"></script>
-    <script src="task_3.js"></script>
   </body>
 </html>

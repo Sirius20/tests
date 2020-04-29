@@ -1,4 +1,5 @@
 .page-home {
+  -ms-display: flex;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -19,6 +20,7 @@
 }
 
 .page-home__filters {
+  -ms-display: flex;
   display: flex;
   flex-direction: column;
   margin-right: 50px;

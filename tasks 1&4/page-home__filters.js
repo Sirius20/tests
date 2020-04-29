@@ -1,11 +1,13 @@
 'use strict';
 
+// 4 задание по JS.	
+
 var checkAll = document.querySelector('#fieldcheck legend [type="checkbox"]');
 var collectChecks = Array.from(document.querySelectorAll('#fieldcheck [type="checkbox"]'));
 var colors = Array.from(document.querySelectorAll('#fieldcheck img'));
 
 var update = function () {
-  for (var i = 0; i < collectChecks.length - 1; i++) {
+  for (var i = 1; i < collectChecks.length; i++) {
     collectChecks[i].onchange = function() {
       var collectChecked = Array.from(document.querySelectorAll('#fieldcheck [type="checkbox"]:checked').length);
       checkAll.checked = collectChecked == collectChecks.length;
@@ -21,7 +23,7 @@ var update = function () {
 };
 
 checkAll.onchange = function() {
-  for (var j = 0; j < collectChecks.length - 1; j++) {
+  for (var j = 1; j < collectChecks.length; j++) {
     collectChecks[j].checked = this.checked;
     var label = document.querySelector("label[for='" + collectChecks[j].id + "']");
     if (collectChecks[j].checked) {

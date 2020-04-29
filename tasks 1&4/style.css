@@ -17,6 +17,7 @@ body {
 }
 
 .container {
+  -ms-display: flex;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
