@@ -4,14 +4,13 @@
 
 var checkAll = document.querySelector('#fieldcheck legend [type="checkbox"]');
 var collectChecks = Array.from(document.querySelectorAll('#fieldcheck [type="checkbox"]'));
-var colors = Array.from(document.querySelectorAll('#fieldcheck img'));
 
 var update = function () {
   for (var i = 1; i < collectChecks.length; i++) {
     collectChecks[i].onchange = function() {
       var collectChecked = Array.from(document.querySelectorAll('#fieldcheck [type="checkbox"]:checked').length);
       checkAll.checked = collectChecked == collectChecks.length;
-   
+
       var label = document.querySelector("label[for='" + this.id + "']");
       if (this.checked) {
         label.style.display = "none";
@@ -35,10 +34,3 @@ checkAll.onchange = function() {
 };
 
 update();
-
-
-// for (let box of boxes) {
-//   box.onchange = function {
-    
-//   }
-// }
