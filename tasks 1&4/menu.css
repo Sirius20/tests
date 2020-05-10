@@ -19,6 +19,7 @@
 .menu__item {
   position: relative;
   padding: 20px;
+  word-wrap: break-word;
 }
 .menu__item_active {
   background-color: rgb(102, 58, 8);
